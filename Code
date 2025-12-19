@@ -1,0 +1,16 @@
+print ('UAH to EUR & EUR to UAH converter')
+print ('1: UAH to EUR')
+print ('2: EUR to UAH')
+choice = input('Choose 1 or 2: ')
+
+if choice == '1':
+    hyrvnias = float(input('UAH: '))
+    uah_to_eur = 0.0202
+    eur = uah_to_eur * hyrvnias
+    print ('EUR: ', eur)
+
+elif choice == '2':
+    euros = float(input('UAH: '))
+    eur_to_uah = 49.55
+    uah = eur_to_uah * euros
+    print ('UAH: ', uah)
